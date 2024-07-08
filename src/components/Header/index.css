@@ -1,0 +1,59 @@
+/* Write your CSS code here */
+.navHeader {
+  display: flex;
+  justify-content: space-around;
+}
+.navContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+.navBarMobileLogoContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.websiteLogo {
+  width: 120px;
+}
+.navMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  list-style-type: none;
+}
+.navMenuMobile {
+  width: 100%;
+}
+.navMenuListMobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: #e6f6ff;
+  flex: 1;
+  list-style-type: none;
+}
+.navMenuItem {
+  color: #475569;
+}
+.logoutDesktopBtn {
+  color: white;
+  background-color: #0967d2;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.navMobileBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.navBarImg {
+  width: 25px;
+}

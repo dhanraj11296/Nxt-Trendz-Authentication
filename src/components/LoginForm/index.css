@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+.loginFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+}
+.loginWebsiteLogoMobileImg {
+  width: 170px;
+}
+.loginImg {
+  width: 270px;
+}
+.loginWebsiteLogoDesktopImg {
+  width: 185px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 110px;
+  width: 100%;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.inputLabel {
+  line-height: 15px;
+  color: #475569;
+}
+.usernameInputField {
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+}
+.passwordInputField {
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+}
+.loginButton {
+  color: white;
+  height: 40px;
+  width: 100%;
+  background-color: #0b69ff;
+}
+.errorMessage {
+  align-self: start;
+  line-height: 15px;
+  color: #ff0b37;
+}
